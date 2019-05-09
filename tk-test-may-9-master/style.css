@@ -1,0 +1,99 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+body{
+     font-family: 'Open Sans', sans-serif;
+     background-color: lightblue;
+      display: flexbox;
+
+}
+header {
+    height: 75px;
+    width: 75px;
+  
+}
+
+nav {
+    text-align: right;
+    height: 40px;
+    width: 50%;
+    margin-right: 0px;
+    padding: 2px;
+    float: right;
+    margin-top: -70px;
+   
+}
+
+a {
+    text-decoration: none;
+    color: Black;
+    font-size: 1em;
+    font-weight: bold;
+  
+}
+
+#img1 {
+    height: 70px;
+    width: 70px;
+}
+
+figure {
+    width: 180px;
+}
+
+
+
+#container {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    padding: 5px;
+   
+}
+
+#detail {
+    display: inline-block;
+    float: right;
+   padding: 2px;
+   
+    margin: auto;
+    width: 39%;
+    font-size: 10px;
+}
+
+#pre {
+    text-decoration-line: line-through;
+    display: inline;
+}
+
+.price {
+    font-size: 20px;
+}
+
+button {
+    height: 40px;
+    width: 210px;
+    background: pink;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+i{
+ color : orange;
+ size: 20px;
+
+}
+.fa-cart-plus{
+
+    color: white;
+
+}
+li{
+
+    list-style: none;
+}
+#about{
+    margin: auto;
+    width: 50%;
+    padding: 5px;  
+   background-color: white;
+
+}
